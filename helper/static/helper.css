@@ -1,0 +1,20 @@
+.question_answer{
+    background-color: lightgray;
+    margin: 5px;
+    padding-bottom: 5px;
+}.question{
+    padding: 10px 5px 5px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .answer{
+     min-height: 100px;
+     border: 1px solid black;
+     margin: 0px 5px;
+     padding: 5px;
+ }
+
+ .question_list{
+     border: 2px solid black;
+     width: 300px;
+ }

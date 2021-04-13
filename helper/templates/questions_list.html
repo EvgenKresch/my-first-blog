@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="question_list">
+    {% for question in questions %}
+        <div class="question_answer">
+            <div class="question">
+                {{ question.text }}
+            </div>
+                <div class="answer">
+                    {{ question.answer.text }}
+                </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock content %}
